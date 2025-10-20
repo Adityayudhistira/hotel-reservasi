@@ -56,7 +56,7 @@
                                     class="btn btn-warning btn-sm text-dark">
                                     <i class="fas fa-times"></i> Tidak
                                 </a>
-                                <a href="?page=delete&room_id=<?= $row['room_id'] ?>"
+                                <a href="?page=deleteroom&room_id=<?= $row['room_id'] ?>"
                                     class="btn btn-danger btn-sm"
                                     onclick="return confirm('Yakin ingin menghapus kamar ini?');">
                                     <i class="fas fa-trash"></i> Hapus
