@@ -48,7 +48,7 @@ if (!isset($_SESSION['user_id'])) {
                 include "modul/room/editstatus.php";
                 break;
             case 'deleteroom':
-                include "modul/room/delete.php";
+                include "modul/room/deleteroom.php";
                 break;
 
             // RESERVATION
